@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+
+    <ScrollView 
+  android:id="@+id/sv"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+   <TableLayout 
+    android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" 
+         
+        android:orientation="vertical"> 
+<!--这里是你自己要加的内容，只要内容大于一屏，就会滚动-->
+<TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" 
+                  >
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block" >  
+            </ImageView>
+            
+ </TableRow><!-- 这是隔板 -->
+ 
+ 
+  <TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" 
+                  >
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_appetizer" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_entry" >  
+            </ImageView>
+            </TableRow>
+            
+  <TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" >
+                  
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block_appetizer" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block_entry" > 
+             </ImageView>
+ </TableRow><!-- 这是隔板 -->
+ 
+ 
+ 
+            <TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" 
+                  >
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_lunch_special" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_dessert" >  
+            </ImageView>
+            </TableRow>
+            
+            <TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" 
+                  >
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block_lunchspecial" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block_dessert" >  
+            </ImageView>
+            
+ </TableRow><!-- 这是隔板 -->
+            <TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" 
+                  >
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_beverage" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_img" >  
+            </ImageView>
+            </TableRow>
+            
+             <TableRow android:orientation="horizontal" 
+                  android:layout_weight="1" 
+                  >
+            <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block_beverage" >  
+            </ImageView> 
+             <ImageView 
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:src="@drawable/concierge_black_block" >  
+            </ImageView>
+            
+ </TableRow><!-- 这是隔板 -->
+            </TableLayout>
+            </ScrollView>
+      
